@@ -43,9 +43,7 @@ footer {
     font-style: italic;
 }
 
-#download {
-    margin-bottom: 70px; /* Space between download section and footer */
-}
+
 
 a {
     display: inline-block;
