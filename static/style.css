@@ -77,24 +77,26 @@ ul li {
     margin-bottom: 10px;
 }
 
+
 /* How It Works */
 #how-it-works .steps {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 30px;
+    flex-direction: column; /* This ensures the images are stacked vertically */
+    align-items: center; /* Center the images */
+    gap: 30px; /* Space between each image */
     margin-top: 40px;
 }
 
 #how-it-works .step {
-    flex: 1 1 300px;
-    max-width: 300px;
+    width: 100%; /* Take full width of the container */
+    max-width: 600px; /* Limit max width to prevent stretching too much */
     text-align: center;
 }
 
 #how-it-works img {
-    width: 100%;
-    height: auto;
+    width: 100%; /* Make the images take full width of the container */
+    max-width: 600px; /* Adjust max-width to make images larger */
+    height: auto; /* Maintain aspect ratio */
     border-radius: 8px;
     margin-bottom: 15px;
 }
