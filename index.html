@@ -3,39 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>File Organizer CLI Tool</title>
-    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-        <h1>File Organizer CLI Tool</h1>
-        <p>Save time and stay organized with a simple and fast file management tool.</p>
+        <div class="container">
+            <h1>File Organizer CLI Tool</h1>
+            <p class="tagline">Organize your files with ease and efficiency</p>
+            <a href="#download" class="cta-button">Download Now</a>
+        </div>
     </header>
 
-    <section id="description">
-        <h2>About the Tool</h2>
-        <p>This tool helps you organize files into different folders if you have some messy files inside your folder and want to organize them.</p>
-        <p>For now, it works just to organize files for my 1st semester subjects.</p>
-        <p>It uses regex to find the terms from file names that match with each subject category and assigns that file to the particular subject.</p>
+    <section id="about">
+        <div class="container">
+            <h2>About the Tool</h2>
+            <p>
+                Are you tired of dealing with messy files? Our File Organizer CLI Tool is here to help. 
+                With this tool, you can effortlessly categorize and organize your files, making it ideal for students, professionals, and anyone who values efficiency and order.
+            </p>
+        </div>
     </section>
 
-    <section id="images">
-        <h2>How It Works</h2>
-        <img src="static/before.jpg" alt="Explanation Image 1">
-        <p class="caption">Messy files in subjects_notes directory</p>
-        <img src="static/terminalcommand.jpg" alt="Explanation Image 2">
-        <p class="caption">Terminal command to run our tool</p>
-        <img src="static/after.jpg" alt="Explanation Image 3">
-        <p class="caption">Rearranged messy files in their respective subdirectory</p>
+    <section id="features">
+        <div class="container">
+            <h2>Features</h2>
+            <ul>
+                <li>Automatic categorization of files by subject or category</li>
+                <li>Simple and user-friendly command-line interface</li>
+                <li>Fast and efficient file organization</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <img src="image1.jpg" alt="Messy files in directory">
+                    <p><strong>Messy files in directory:</strong> Files scattered across your system.</p>
+                </div>
+                <div class="step">
+                    <img src="image2.jpg" alt="Terminal command">
+                    <p><strong>Terminal command:</strong> Run a simple command to organize files.</p>
+                </div>
+                <div class="step">
+                    <img src="image3.jpg" alt="Organized files">
+                    <p><strong>Organized files:</strong> Your files are neatly categorized in just a few moments.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="download">
-        <h2>Download the CLI Tool</h2>
-        <a href="https://github.com/thapadipenra/fileorganizer-cli" target="_blank">Download File Organizer CLI Tool</a>
+        <div class="container">
+            <h2>Download File Organizer CLI Tool</h2>
+            <p>
+                Ready to simplify your workflow? Download the File Organizer CLI Tool today and start organizing your files like a pro.
+            </p>
+            <a href="https://github.com" class="cta-button">Download on GitHub</a>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 File Organizer CLI Tool</p>
+        <p>© 2024 File Organizer CLI Tool | <a href="https://github.com">GitHub</a></p>
     </footer>
+
 </body>
 </html>
