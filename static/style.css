@@ -77,7 +77,6 @@ ul li {
     margin-bottom: 10px;
 }
 
-
 /* How It Works */
 #how-it-works .steps {
     display: flex;
@@ -99,6 +98,40 @@ ul li {
     height: auto; /* Maintain aspect ratio */
     border-radius: 8px;
     margin-bottom: 15px;
+}
+
+/* New Section for How to Run */
+#run-instructions {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#run-instructions .run-methods {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+#run-instructions .method {
+    max-width: 400px;
+    text-align: center;
+}
+
+#run-instructions .method code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#run-instructions .method p {
+    font-size: 1rem;
+    color: #555;
 }
 
 /* Footer */
